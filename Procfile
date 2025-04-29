@@ -1,1 +1,1 @@
-web: onepage_casamento.wsgi:application
+web: gunicorn casamento.wsgi
