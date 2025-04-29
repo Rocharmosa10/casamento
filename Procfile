@@ -1,1 +1,1 @@
-web: onepage-casamento.wsgi
+web: onepage_casamento.wsgi:application

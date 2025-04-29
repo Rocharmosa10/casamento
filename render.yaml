@@ -3,9 +3,10 @@ services:
     name: onepage-casamento
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "onepage-casamento.wsgi"
+    startCommand: "gunicorn onepage_casamento.wsgi:application"
     envVars:
       - key: DEBUG
         value: "False"
       - key: SECRET_KEY
         generateValue: true
+        

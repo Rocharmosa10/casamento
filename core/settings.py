@@ -14,9 +14,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ex6fi&oah-3uvhjiu(vl8ak+=j+9%d&dy*0n%0!sst9_4$fgl-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = os.getenv("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = ['*'] # Coloque o domínio do seu site aqui, por exemplo: ['www.seusite.com.br']
+ALLOWED_HOSTS = ['onepage-casamento.onrender.com", "localhost", "127.0.0.1'] # Coloque o domínio do seu site aqui, por exemplo: ['www.seusite.com.br']
 
 
 # Application definition
