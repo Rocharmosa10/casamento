@@ -1,1 +1,1 @@
-web: gunicorn casamento.wsgi
+web: gunicorn core.wsgi
