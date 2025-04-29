@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: onepage-casamento
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "onepage-casamento.wsgi"
+    envVars:
+      - key: DEBUG
+        value: "False"
+      - key: SECRET_KEY
+        generateValue: true

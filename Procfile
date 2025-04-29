@@ -1,0 +1,1 @@
+web: onepage-casamento.wsgi
