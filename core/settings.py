@@ -16,7 +16,7 @@ SECRET_KEY = 'django-insecure-ex6fi&oah-3uvhjiu(vl8ak+=j+9%d&dy*0n%0!sst9_4$fgl-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = ['https://casamento-sru0.onrender.com'] # Coloque o domínio do seu site aqui, por exemplo: ['www.seusite.com.br']
+ALLOWED_HOSTS = ['casamento-sru0.onrender.com'] # Coloque o domínio do seu site aqui, por exemplo: ['www.seusite.com.br']
 
 
 # Application definition
