@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: Casamento Robson e Rose
+    name: onepage-casamento
     env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "gunicorn core.wsgi:application"
